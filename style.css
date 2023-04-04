@@ -32,15 +32,19 @@ p{
 header{
     display: flex;
     background-image: linear-gradient(white, blue);
+    
 }
 
 header p {
-    margin-left: 15px;
+    margin-left: 55px;
     font-size: 40px;
     color: black;
     font-weight: bold;
+    
 }
-img:hover{
+
+
+.amg:hover{
     transform: scale(1.1);
     transition:0.5s linear;
     margin: 50px;
@@ -50,3 +54,9 @@ img:hover{
     width: 10px;
     height: 15px;
 }
+
+iframe {
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
