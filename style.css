@@ -1,0 +1,52 @@
+h1{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+h2{
+    color: white;
+    background-color: blue;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.amg{
+    border: 3px solid blue;
+}
+
+.center {
+    display: flex;
+   justify-content: center;
+}
+
+.center img{
+    margin-right: 15px;
+}
+
+header{
+    display: flex;
+    background-image: linear-gradient(white, blue);
+}
+
+header p {
+    margin-left: 15px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+img:hover{
+    transform: scale(1.1);
+    transition:0.5s linear;
+    margin: 50px;
+}
+
+.style{
+    width: 10px;
+    height: 15px;
+}
